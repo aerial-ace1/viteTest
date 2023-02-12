@@ -120,7 +120,7 @@ const SignUp = ()=>{
         </FormControl>
 
             <button style={{margin:"1rem", padding:"1rem 2rem"}} onClick={()=>submit()}>Submit</button>
-            <a style={{color:"#000000"}} href="/login">Login</a>
+            <a style={{color:"#000000"}} onClick={()=>{navigate("/login")}}>Login</a>
         </div>} </div>);
 }
 

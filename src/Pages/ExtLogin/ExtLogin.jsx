@@ -110,7 +110,7 @@ const Login = ()=>{
 
             <button style={{margin:"1rem", padding:"1rem 2rem"}} onClick={()=>submit()}>Submit</button>
 
-            <a style={{color:"#000000"}} href="/signup">Sign Up</a>
+            <a style={{color:"#000000"}} onClick={()=>{navigate("/signup")}}>Sign Up</a>
         </div>
 
         } </div>);
