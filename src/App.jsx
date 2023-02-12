@@ -1,17 +1,17 @@
 import Router from './Router'
 import './App.css'
 import { Toaster } from 'react-hot-toast';
-import { HashRouter } from 'react-router-dom'
+// import { HashRouter } from 'react-router-dom'
 
 
 function App() {
 
   return (
     <>
-        <HashRouter>
+        {/* <HashRouter> */}
           <Toaster/>
           <Router/>
-        </HashRouter>
+        {/* </HashRouter> */}
     </>
   );
 }
