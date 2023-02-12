@@ -1,14 +1,19 @@
 import Router from './Router'
 import './App.css'
-import toast, { Toaster } from 'react-hot-toast';
+import { Toaster } from 'react-hot-toast';
+import { HashRouter } from 'react-router-dom'
 
 
 function App() {
 
-  return (<>
-      <Toaster/>
-      <Router/>
-  </>);
+  return (
+    <>
+        <HashRouter>
+          <Toaster/>
+          <Router/>
+        </HashRouter>
+    </>
+  );
 }
 
 export default App
